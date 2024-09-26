@@ -94,7 +94,19 @@
     .text-container {
       text-align: justify;
     }
- .contact-info-container{
-    width: 10rem;
- }
+    .contact-info-container{
+      margin-bottom: 1rem;
+    }
+    .contact-info-upper-container{
+      width: 200px;
+      flex-wrap: wrap;
+      padding-block:0.3rem ;
+    }
+    input,
+    textarea{
+    width: 80%;
+    }
+    .whatsapp-btn{
+      width: 55%;
+    }
   }

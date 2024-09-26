@@ -48,7 +48,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="location.href='https://drive.google.com/file/d/1NXbro4qpwBvTXCx5Vl3nH4AskDR_qsQU/view?usp=sharing'"
           >
             Download CV
           </button>
@@ -431,7 +431,7 @@
   </section>
 
 
-    <section id="contact">
+    <!-- <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
@@ -441,7 +441,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />    
-          <p><a href="mailto:preciousezechukwu563@gmail.com">Preciousezechukwu563@gmail.com</a></p>
+          <p><a href="mailto:preciousezechukwu563@gmail.com">Email</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -452,7 +452,22 @@
           <p><a href="https://wa.link/2bcpgj">Whatsapp</a></p>
         </div>
       </div>
+    </section> -->
+    <section id="contact">
+      <p class="section__text__p1">Feel Free to</p>
+      <h1 class="title">Contact me &#x1F604;</h1>
+      <form id="whatsappForm">
+        <div class="form">
+          <input type="text" id="fname" name="fname" required placeholder="Full Name:" />
+          <input type="text" id="phone" name="phone" required placeholder="Phone No:" />
+          <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+          <input type="submit" value="Submit via WhatsApp" class="btn btn-color-1 whatsapp-btn" />
+          <p id="error" class="error"></p>
+        </div>
+      </form>
     </section>
+
+
     <footer>
       <nav>
         <div class="nav-links-container">
@@ -464,6 +479,7 @@
           </ul>
         </div>
       </nav>
+      <!-- <p>preciousezechukwu563@gmail.com</p> -->
       <p>Copyright &#169; 2023 Precious Eze. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>

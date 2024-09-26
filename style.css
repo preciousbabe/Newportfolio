@@ -184,6 +184,9 @@ section {
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
+.whatsapp-btn{
+  width: 30%;
+}
 .btn-color-1:hover,
 .btn-color-2:hover {
   cursor: pointer;
@@ -303,13 +306,43 @@ article .icon {
 }
 /* CONTACT */
 #contact {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  flex-direction: column;
-  height: 70vh;
+  flex-direction: row; */
+  height: 80vh;
 }
-.contact-info-upper-container {
+ .form{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size:20px;
+} 
+input{
+  width: 50%; 
+  padding: 12px 20px;
+  margin: 20px 0; 
+  box-sizing: border-box;
+   border: none; 
+   border-bottom: 1px solid gray;
+   outline: none;
+}
+::placeholder{
+  font-size: 17px;
+  font-family:cursive;
+}
+textarea{
+  width: 50%;
+  height:220px;
+  margin:20px 0;
+  padding: 12px 20px;
+  font-size:12px;
+  outline: none;
+}
+/* .contact-info-upper-container {
   display: flex;
+  width: 300px;
   justify-content: center;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -320,9 +353,8 @@ article .icon {
 }
 .contact-info-container {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
   gap: 0.5rem;
   margin: 1rem;
 }
@@ -334,7 +366,7 @@ article .icon {
 }
 .email-icon {
   height: 2.5rem;
-}
+} */
 /* FOOTER SECTION */
 footer {
   height: 26vh;
@@ -343,6 +375,6 @@ footer {
 footer p {
   text-align: center;
 }
-.gridd{
-    display: grid;
+.error {
+  color: red;
 }
