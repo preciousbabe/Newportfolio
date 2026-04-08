@@ -2,498 +2,383 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link rel="shortcut icon" href="./assets/profile-pic.png">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
+   <title>Precious Eze</title>
   </head>
   <body>
-    <nav id="desktop-nav">
-      <div class="logo">Precious Eze</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Precious Eze</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Precious Eze profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Precious Eze</h1>
-        <p class="section__text__p2">Frontend Developer</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="location.href='https://drive.google.com/file/d/1NXbro4qpwBvTXCx5Vl3nH4AskDR_qsQU/view?usp=sharing'"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <!-- <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/'"
-          />
-        </div> -->
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/about-pic.png"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Communities</h3>
-              <p>Google Developers Forum, Aba<br />Innovation Growth Hub.</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-                Hi, I'm Precious Eze, a passionate frontend web designer with a 
-                love for creating clean, user-friendly websites. I believe that good
-                design is about making the web more accessible and enjoyable for everyone.
-                 My goal is to blend creativity with functionality, ensuring every site not
-                 only looks great but works seamlessly across all devices. Let’s bring your vision to 
-                 life with design that speaks to your audience.
-            </p>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Boothstrap</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>React Js</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Node Js</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Other Online Skill</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>AI Content Creator</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Graphic Design</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Video Editor</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Copy Writing</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
+    <header class="header">
+      <div class="header__socials">
+  <!-- Gmail -->
+  <a href="mailto:preciousezechukwu563@gmail.com">
+    <i class="ri-mail-fill"></i>
+  </a>
 
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/BG.jpg"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">BG Changer</h2>
-            <div class="btn-container">
-              <button
-        class="btn btn-color-2 project-btn"
-       onclick="window.open('https://backgroundcolourgenerator.netlify.app/', '_blank')"
-        >
-       Visit Site
-      </button>
+  <!-- WhatsApp -->
+  <a href="https://wa.me/2349063347770" target="_blank">
+    <i class="ri-whatsapp-fill"></i>
+  </a>
 
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/enyirich.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Enyirich Farms</h2>
-            <div class="btn-container">
-              <button
-           class="btn btn-color-2 project-btn"
-            onclick="window.open('https://enyirichfarms.netlify.app/', '_blank')"
-            >
-                Visit Site
-              </button>
-
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/notes.webp"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Note App</h2>
-            <div class="btn-container">
-              <button
-              class="btn btn-color-2 project-btn"
-              onclick="window.open('https://candid-cocada-0057c9.netlify.app/', '_blank')"
-            >
-              Visit Site
-            </button>
-            
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/purlaw.png"
-              alt="law website"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Law Website</h2>
-          <div class="btn-container">
-            <button
-               class="btn btn-color-2 project-btn"
-             onclick="window.open('https://incandescent-khapse-0a0d22.netlify.app/', '_blank')"
-              >
-              Visit Site
-            </button>
-
-          </div>
-        </div>
-
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/fairlink.png"
-              alt="fairlink logistics"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Fairlink Logistics</h2>
-          <div class="btn-container">
-            <button
-            class="btn btn-color-2 project-btn"
-            onclick="window.open('https://fairlinklogistics.netlify.app/', '_blank')"
-          >
-            Visit Site
-          </button>
-          
-          </div>
-        </div>
-        
-
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/blalaw.png"
-              alt="law website 2"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Law Website 2</h2>
-          <div class="btn-container">
-            <button
-         class="btn btn-color-2 project-btn" 
-          onclick="window.open('https://whimsical-sfogliatella-576976.netlify.app/', '_blank')"
-       >
-       Visit Site
-      </button>
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/Screenshot (15).png"
-              alt="Project 1"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">NFT Site</h2>
-          <div class="btn-container">
-            <button
-            class="btn btn-color-2 project-btn"
-            onclick="window.open('https://super-medovik-dfff4d.netlify.app/', '_blank')"
-            >
-            Visit Site
-               </button>
-
-          </div>
-        </div>
-
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/unnamed.png"
-              alt="Project 2"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Movie App</h2>
-          <div class="btn-container">
-            <button
-            class="btn btn-color-2 project-btn"
-          onclick="window.open('https://effortless-cat-f9ae40.netlify.app/', '_blank')"
-             >
-               Visit Site
-              </button>
-
-          </div>
-        </div>
-        
-
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/miki.png"
-              alt="Project 3"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Miki Concept</h2>
-          <div class="btn-container">
-            <button
-            class="btn btn-color-2 project-btn"
-            onclick="window.open('https://mikimi.netlify.app/', '_blank')"
-          >
-            Visit Site
-          </button>          
-          </div>
-        </div>
-      </div>
-      </div>
-
-    <img
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#projects'"
-    />
-  </section>
-
-    <section id="contact">
-      <p class="section__text__p1">Feel Free to</p>
-      <h1 class="title">Contact me &#x1F604;</h1>
-      <form id="whatsappForm">
-        <div class="form">
-          <input type="text" id="fname" name="fname" required placeholder="Full Name:" />
-          <input type="text" id="phone" name="phone" required placeholder="Phone No:" />
-          <textarea id="message" name="message" required placeholder="Your Message"></textarea>
-          <input type="submit" value="Submit via WhatsApp" class="btn btn-color-1 whatsapp-btn" />
-          <p id="error" class="error"></p>
-        </div>
-      </form>
-    </section>
-
-
-    <footer>
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/precious-ezechukwu-73397528a/" target="_blank">
+  <i class="ri-linkedin-fill"></i>
+</a>
+</div>
       <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">Precious<span>Eze</span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-3-line"></i></span>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#project">Projects</a></li>
+            <li class="link"><a href="#service">Services</a></li>
+            <li class="link btn"><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <!-- <p>preciousezechukwu563@gmail.com</p> -->
-      <p>Copyright &#169; 2023 Precious Eze. All Rights Reserved.</p>
-    </footer>
-    <script src="script.js"></script>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+       <img src="./assets/profile-pic.png" alt="Precious Eze profile picture" />
+        </div>
+        <div class="header__content">
+  <h4>Turning Ideas Into Real Digital Products</h4>
+
+  <h1>
+    Hi, I’m Precious Eze —  
+    A Full Stack Web Developer 
+  </h1>
+
+  <p>
+    I don’t just write code — I build experiences that solve real problems.  
+    From sleek front-end interfaces to robust back-end systems, I create fast,
+    scalable, and user-friendly web applications that actually deliver results.  
+
+    Whether it’s a startup idea, a business platform, or a custom tool,
+    I bring concepts to life with clean code and creative thinking.
+  </p>
+
+ <a 
+  href="https://wa.me/2349063347770?text=Hello%20Precious%2C%20I%20came%20across%20your%20portfolio%20and%20I%E2%80%99d%20like%20to%20talk%20about%20a%20project.%0A%0AName%3A%20%0AProject%20Type%3A%20%0ABudget%3A%20%0ADetails%3A%20"
+  target="_blank"
+  class="btn"
+>
+  Let’s Talk
+</a>
+</div>
+      </div>
+    </header>
+
+<!-- about section -->
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="./assets/image.png" alt="about" />
+      </div>
+      <div class="about__content">
+       <!-- <h2 class="section__header">Hi There, I’m Precious Eze</h2> -->
+
+<p>
+  I’m a passionate full stack web developer who loves turning ideas into real,
+  functional digital products. What started as curiosity for coding has grown
+  into a skill set that allows me to build complete web applications from the
+  ground up.
+</p>
+
+<h4>
+  I focus on creating clean, user-friendly, and scalable solutions that don’t
+  just look good — they perform. I’m always learning, improving, and staying
+  ahead with modern technologies to deliver results that truly make an impact.
+</h4>
+
+<div class="about__btns">
+  <a href="./assets/Precious_Eze_CV.pdf" target="_blank" class="download__btn btn">
+ View CV
+</a>
+
+          <!-- Gmail -->
+  <a href="mailto:preciousezechukwu563@gmail.com">
+    <i class="ri-mail-fill"></i>
+  </a>
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/2349063347770" target="_blank">
+    <i class="ri-whatsapp-fill"></i>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/precious-ezechukwu-73397528a/" target="_blank">
+  <i class="ri-linkedin-fill"></i>
+</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- banner section -->
+    <section class="section__container banner__container">
+
+  <div class="banner__card">
+    <span><i class="ri-lightbulb-line"></i></span>
+    <div>
+      <h4>Understanding Your Idea</h4>
+      <p>
+        I take time to understand your vision, goals, and requirements before
+        writing a single line of code.
+      </p>
+    </div>
+  </div>
+
+  <div class="banner__card">
+    <span><i class="ri-code-s-slash-line"></i></span>
+    <div>
+      <h4>Building the Solution</h4>
+      <p>
+        I develop clean, scalable, and high-performing web applications tailored
+        to your specific needs.
+      </p>
+    </div>
+  </div>
+
+  <div class="banner__card">
+    <span><i class="ri-rocket-line"></i></span>
+    <div>
+      <h4>Launch & Improve</h4>
+      <p>
+        I test, optimize, and refine your product to ensure it performs smoothly
+        and delivers real results.
+      </p>
+    </div>
+  </div>
+
+</section>
+
+
+
+<!-- project section -->
+   <section class="section__container project__container" id="project">
+  <div class="project__header">
+    <h2 class="section__header">My Work</h2>
+
+    <div class="project__nav">
+      <button class="btn project__btn mixitup-control-active" data-filter="all">All</button>
+      <button class="btn project__btn" data-filter=".apps">Web Apps</button>
+      <button class="btn project__btn" data-filter=".landing">Landing Pages</button>
+      <button class="btn project__btn" data-filter=".solutions">Creative Solutions</button>
+    </div>
+  </div>
+  
+  <div class="project__grid">
+
+    <!-- ================= WEB APPS ================= -->
+    <div class="project__card mix apps">
+      <h4>Precifio App</h4>
+      <img src="assets/precifio.png" alt="project" />
+      <p>Smart financial tool a note that understands money.</p>
+      <a href="https://precifio.app/" target="_blank">Check it Out</a>
+    </div>
+
+    <div class="project__card mix apps">
+      <h4>Precifio Calculators</h4>
+      <img src="assets/precifiocalculator.png" alt="project" />
+       <p>Advanced calculators for budgeting, savings, retirement, investments, trading etc.</p>
+      <a href="https://calculators.precifio.app/" target="_blank">Check it Out</a>
+    </div>
+
+
+    <!-- ================= LANDING PAGES ================= -->
+    <div class="project__card mix landing">
+      <h4>Miki Homes Invest</h4>
+       <img src="assets/mikihomes.png" alt="project" />
+      <a href="https://mikihomesinvest.com/" target="_blank">Visit Site</a>
+    </div>
+
+    <div class="project__card mix landing">
+      <h4>Barr Miracle Ogba</h4>
+      <img src="assets/oluchiogba.png" alt="project" />
+      <a href="https://barr-miracle-ogba.netlify.app/" target="_blank">Visit Site</a>
+    </div>
+
+    <div class="project__card mix landing">
+      <h4>Dream Home Estate</h4>
+      <img src="assets/dreamhomes.png" alt="project" />
+      <a href="https://dream-home-estate.netlify.app/" target="_blank">Visit Site</a>
+    </div>
+
+    <div class="project__card mix landing">
+      <h4>TeesByScorpio</h4>
+      <img src="assets/teesbyscorpio.png" alt="project" />
+      <a href="https://teesbyscorpio.netlify.app/" target="_blank">Visit Site</a>
+    </div>
+
+    <div class="project__card mix landing">
+      <h4>Fairlink Logistics</h4>
+      <img src="assets/fairlink.png" alt="project" />
+      <a href="https://fairlinklogistics.netlify.app/" target="_blank">Visit Site</a>
+    </div>
+
+    <div class="project__card mix landing">
+      <h4>Enyirich Farms</h4>
+       <img src="assets/enyirich.png" alt="project" />
+      <a href="https://enyirichfarms.netlify.app/" target="_blank">Visit Site</a>
+    </div>
+
+
+    <!-- ================= CREATIVE SOLUTIONS ================= -->
+    <div class="project__card mix solutions">
+      <h4>Background Generator</h4>
+      <img src="assets/BG.jpg" alt="project" />
+       <p>Create beautiful gradient backgrounds instantly.</p>
+      <a href="https://backgroundcolourgenerator.netlify.app/" target="_blank">Try It</a>
+    </div>
+
+    <div class="project__card mix solutions">
+      <h4>Movie App</h4>
+      <img src="assets/movie.png" alt="project" />
+      <p>Search and explore movies with a clean UI.</p>
+      <a href="https://effortless-cat-f9ae40.netlify.app/" target="_blank">Try It</a>
+    </div>
+
+    <div class="project__card mix solutions">
+      <h4>Note App</h4>
+      <img src="assets/notes.webp" alt="project" />
+      <p>A simple and efficient note-taking application.</p>
+      <a href="https://candid-cocada-0057c9.netlify.app/" target="_blank">Try It</a>
+    </div>
+
+  </div>
+</section>
+
+    <section class="section__container service__container" id="service">
+  <p class="section__subheader">My Services</p>
+  <h2 class="section__header">What I Do</h2>
+  <p class="section__description">
+    I help individuals and businesses bring their ideas to life by building
+    modern, scalable, and high-performing web solutions.
+  </p>
+
+  <div class="service__grid">
+
+    <!-- Full Stack Development -->
+    <div class="service__card">
+      <span><i class="ri-code-s-slash-line"></i></span>
+      <h4>Full Stack Web Development</h4>
+      <p>
+        I build complete web applications from front-end to back-end — fast,
+        secure, and designed to scale as your product grows.
+      </p>
+    </div>
+
+    <!-- Web App Development -->
+    <div class="service__card">
+      <span><i class="ri-apps-line"></i></span>
+      <h4>Web App Development</h4>
+      <p>
+        From dashboards to custom tools, I develop powerful web apps that solve
+        real problems and deliver real results.
+      </p>
+    </div>
+
+    <!-- Landing Pages -->
+    <div class="service__card">
+      <span><i class="ri-layout-4-line"></i></span>
+      <h4>Landing Page Development</h4>
+      <p>
+        I create modern, responsive landing pages that are built to capture
+        attention and convert visitors into customers.
+      </p>
+    </div>
+
+    <!-- UI Implementation -->
+    <div class="service__card">
+      <span><i class="ri-palette-line"></i></span>
+      <h4>Frontend Development</h4>
+      <p>
+        I turn designs into clean, interactive, and user-friendly interfaces
+        using modern technologies and best practices.
+      </p>
+    </div>
+
+    <!-- Backend / APIs -->
+    <div class="service__card">
+      <span><i class="ri-database-2-line"></i></span>
+      <h4>Backend & API Development</h4>
+      <p>
+        I build secure backends, APIs, and database systems that power your
+        applications and handle real-world data efficiently.
+      </p>
+    </div>
+
+    <!-- Optimization -->
+    <div class="service__card">
+      <span><i class="ri-speed-up-line"></i></span>
+      <h4>Performance Optimization</h4>
+      <p>
+        I improve website speed, responsiveness, and overall performance to
+        ensure the best user experience across all devices.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+  
+   <section class="section__container contact__container" id="contact">
+  <p class="section__subheader">Get In Touch</p>
+  <h2 class="section__header">Let’s Build Something</h2>
+  <p class="section__description">
+    Have an idea, project, or need a developer? Send me a message — I’ll get back to you quickly.
+  </p>
+
+  <!-- Contact Form -->
+  <form class="contact__form" id="whatsappForm">
+    <div class="input__row">
+      <input type="text" id="firstName" placeholder="First Name" required />
+      <input type="text" id="lastName" placeholder="Last Name" required />
+    </div>
+
+    <input type="email" id="email" placeholder="Email Address" required />
+    <textarea id="message" placeholder="Tell me about your project..." required></textarea>
+
+    <button class="btn" type="submit">Send Message</button>
+  </form>
+
+  <!-- Direct Contact Options -->
+ <div class="footer__socials">
+      <a href="mailto:preciousezechukwu563@gmail.com"><i class="ri-mail-fill"></i></a>
+      <a href="https://wa.me/2349063347770" target="_blank"><i class="ri-whatsapp-fill"></i></a>
+      <a href="https://www.linkedin.com/in/precious-ezechukwu-73397528a/" target="_blank">
+  <i class="ri-linkedin-fill"></i>
+</a>
+    </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__bar">
+    © 2023 Precious Eze. All rights reserved.
+  </div>
+</footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
